@@ -5,12 +5,13 @@ server:
       force-response: true
 spring:
   jpa:
-    hibernate:
-      ddl-auto: update
     show-sql: true
+    database-platform:
+    database:
+    hibernate.ddl-auto: update
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: localhost
+    url: jdbc:mysql://localhost:3306/likelion-db
     username: root
     password: 1q2w3e4r
 
