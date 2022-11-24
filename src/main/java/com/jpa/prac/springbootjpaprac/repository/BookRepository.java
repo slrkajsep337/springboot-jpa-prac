@@ -1,6 +1,6 @@
-package repository;
+package com.jpa.prac.springbootjpaprac.repository;
 
-import domain.entity.Book;
+import com.jpa.prac.springbootjpaprac.domain.entity.Book;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface BookRepository extends JpaRepository<Book, Long> {
