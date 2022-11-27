@@ -1,4 +1,4 @@
-성package com.jpa.prac.springbootjpaprac.domain.dto;
+package com.jpa.prac.springbootjpaprac.domain.dto;
 
 
 import com.jpa.prac.springbootjpaprac.domain.entity.Review;
